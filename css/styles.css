@@ -52,6 +52,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
+  --bs-body-timeline-panel: 2.5vw;
 }
 
 *,
@@ -67,20 +68,16 @@
 }
 /*paragrafo*/
 p.ingredientes1{
-  font-size: 15px;
+  font-size: 2vw;
 }
 li.lista1{
-  font-size: 150%;
+  font-size: var(--bs-body-timeline-panel);
 }
-li#caipiroska{
-  font-size: 140%;
-} 
-.lista2{
-  font-size: 128%;
+.timeline-body .timeline-inverter{
+  
+  text-size-adjust: 3vw;
 }
-li {
-  text-align: justify;
-}
+
 
 
 /*corpo do texto*/
@@ -102,6 +99,7 @@ li {
   margin:auto;
   display: block;
 }
+
 /*#taxaentrega{
  background-color: var(--bs-yellow);
  width: 100px;
