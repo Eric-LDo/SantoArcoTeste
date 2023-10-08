@@ -293,6 +293,7 @@ a:hover {
 }
 #tituloDaHistoia{
   text-align: center;
+  margin-bottom: 40px;
 }
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
