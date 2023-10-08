@@ -285,10 +285,11 @@ sup {
 a {
   color: #ffc800;
   text-decoration: underline;
-  text-shadow: #000 3px 3px 4px;
+  text-shadow: #000 1px 1px 2px;
 }
 a:hover {
   color: #cca000;
+  text-shadow: none;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -7840,6 +7841,12 @@ textarea.form-control-lg {
 .text-muted {
   --bs-text-opacity: 1;
   color: #6c757d !important;
+}
+.Bem-Vindo{
+  font-size: 13px;
+}
+.reserva{
+  padding-top:80px;
 }
 
 .text-black-50 {
