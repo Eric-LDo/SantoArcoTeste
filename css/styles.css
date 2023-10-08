@@ -291,7 +291,9 @@ a:hover {
   color: #cca000;
   text-shadow: none;
 }
-
+#tituloDaHistoia{
+  text-align: center;
+}
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
